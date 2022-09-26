@@ -52,3 +52,17 @@ figcaption{
 .highlights{
     background-color: rgb(244, 229, 25);
 }
+
+/* Sezione Tabella */
+table{
+    width: 100%;
+}
+
+thead{
+    background-color: rgb(0, 106, 255);
+    background:contain;
+}
+.colored{
+    background-color: rgb(0, 153, 255);
+    background:contain;
+}
