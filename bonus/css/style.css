@@ -4,6 +4,15 @@ body{
     font-size: 20px;
 }
 
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 /* Header */
 header{
     background-color: rgb(10, 191, 204);
@@ -12,6 +21,8 @@ header{
     height: 100px;
     width:100%;
     margin-bottom: 50px;
+    margin-left:0;
+    margin-right:0;
 }
 
 #logo{
@@ -23,14 +34,20 @@ header{
 
 h1{
     margin-top: 0%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #autore{
     font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 #data{
     font-size: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* Sezione Immagini */
