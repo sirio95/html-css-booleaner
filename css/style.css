@@ -42,6 +42,12 @@ h1{
 figure{
     margin-left: 0%;
     align-content: left;
+    width:100%;
+}
+figure img{
+    width: 45%;
+    height: 60%;
+    image-resolution: initial;
 }
 
 figcaption{
@@ -51,6 +57,10 @@ figcaption{
 /* Sezione Testo */
 .highlights{
     background-color: rgb(244, 229, 25);
+}
+
+p{
+    text-justify:auto;
 }
 
 /* Sezione Tabella & Testo finale */
