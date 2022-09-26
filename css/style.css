@@ -11,6 +11,7 @@ header{
     background-size:contain;
     height: 100px;
     width:100%;
+    margin-bottom: 50px;
 }
 
 #logo{
@@ -30,4 +31,24 @@ h1{
 }
 #data{
     font-size: 10px;
+}
+
+/* Sezione Immagini */
+#immagini{
+    margin-top: 200px;
+    width: 100%;
+}
+
+figure{
+    margin-left: 0%;
+    align-content: left;
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+/* Sezione Testo */
+.highlights{
+    background-color: rgb(244, 229, 25);
 }
