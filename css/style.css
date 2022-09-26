@@ -53,7 +53,7 @@ figcaption{
     background-color: rgb(244, 229, 25);
 }
 
-/* Sezione Tabella */
+/* Sezione Tabella & Testo finale */
 table{
     width: 100%;
 }
@@ -65,4 +65,28 @@ thead{
 .colored{
     background-color: rgb(0, 153, 255);
     background:contain;
+}
+
+/* Footer */
+h3{
+    color: dimgray;
+}
+#Suggest1{
+    width:200px;
+    height:200px;
+    background-image: url(../img/graph.jpg)
+}
+
+#Suggest1 div{
+    color:white;
+}
+
+#Suggest2{
+    width:200px;
+    height:200px;
+    background-image: url(../img/monitor.jpg)
+}
+
+#Suggest2 div{
+    color:white;
 }
