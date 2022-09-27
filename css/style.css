@@ -89,6 +89,7 @@ h3{
     font-size: 20px;
 }
 #Suggest1{
+    margin-bottom:10px;
     width:200px;
     height:200px;
     background-image: url(../img/graph.jpg)
@@ -99,7 +100,7 @@ h3{
 }
 
 #Suggest2{
-    margin-top: 15px;;
+    margin-top: 15px;
     width:200px;
     height:200px;
     background-image: url(../img/monitor.jpg)
