@@ -8,7 +8,8 @@ body{
 header{
     background-color: rgb(10, 191, 204);
     background-image: url(../img/pattern.png);
-    background-size:contain;
+    background-size: contain;
+    background: size 50%;
     height: 100px;
     width:100%;
     margin-bottom: 50px;
@@ -29,6 +30,10 @@ h1{
     font-size: 16px;
 
 }
+#nomeautore{
+    color:rgb(0, 204, 255);
+}
+
 #data{
     font-size: 10px;
 }
@@ -43,12 +48,6 @@ figure{
     margin-left: 0%;
     align-content: left;
     width:100%;
-}
-figure img{
-    width: 45%;
-    height: 60%;
-    image-resolution: initial;
-    image-rendering: optimizeQuality;
 }
 
 figcaption{
@@ -67,9 +66,11 @@ p{
 /* Sezione Tabella & Testo finale */
 table{
     width: 100%;
+    border-collapse: collapse;
 }
 
 thead{
+    color:white;
     background-color: rgb(0, 106, 255);
     background:contain;
 }
@@ -78,9 +79,14 @@ thead{
     background:contain;
 }
 
+.long{
+    width:600px;
+}
+
 /* Footer */
 h3{
     color: dimgray;
+    font-size: 20px;
 }
 #Suggest1{
     width:200px;
@@ -93,6 +99,7 @@ h3{
 }
 
 #Suggest2{
+    margin-top: 15px;;
     width:200px;
     height:200px;
     background-image: url(../img/monitor.jpg)
